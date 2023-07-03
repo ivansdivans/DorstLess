@@ -1,0 +1,128 @@
+[
+    {
+        "id": 1001,
+        "category": "Watertappunt",
+        "name": "Henri Hermanspark",
+        "city": "Maastricht",
+        "zipCode": "6211 JP",
+        "coordinates": {
+            "longitude": 50.844162763510425,
+            "latitude": 5.691513264121207
+        },
+        "openingTime": "24/7",
+        "imageName": "glassOfWater",
+        "isFavorite": true
+    },
+    {
+        "id": 1002,
+        "category": "Watertappunt",
+        "name": "Graanmarkt",
+        "city": "Maastricht",
+        "zipCode": "6211 HG",
+        "coordinates": {
+            "longitude": 50.8474957122908,
+            "latitude": 5.6944958805776436
+        },
+        "openingTime": "24/7",
+        "imageName": "glassOfWater",
+        "isFavorite": false
+    },
+    {
+        "id": 1003,
+        "category": "Watertappunt",
+        "name": "Maastrichter Brugstraat",
+        "city": "Maastricht",
+        "zipCode": "6211 ER",
+        "coordinates": {
+            "longitude": 50.84948229664089,
+            "latitude":  5.693842496395379
+        },
+        "openingTime": "24/7",
+        "imageName": "glassOfWater",
+        "isFavorite": false
+    },
+    {
+        "id": 1004,
+        "category": "Watertappunt",
+        "name": "Gouvernementspad",
+        "city": "Maastricht",
+        "zipCode": "empty",
+        "coordinates": {
+            "longitude": 50.84070177647112,
+            "latitude": 5.701069586252392
+        },
+        "openingTime": "24/7",
+        "imageName": "glassOfWater",
+        "isFavorite": false
+    },
+    {
+        "id": 1005,
+        "category": "Watertappunt",
+        "name": "Limburglaan",
+        "city": "Maastricht",
+        "zipCode": "6229 GA",
+        "coordinates": {
+            "longitude": 50.84020191313425,
+            "latitude": 5.703297812505904
+        },
+        "openingTime": "24/7",
+        "imageName": "glassOfWater",
+        "isFavorite": false
+    },
+    {
+        "id": 1006,
+        "category": "Watertappunt",
+        "name": "Vrijthof",
+        "city": "Maastricht",
+        "zipCode": "6211 LC",
+        "coordinates": {
+            "longitude": 50.84998425910163,
+            "latitude": 5.688830796395379
+        },
+        "openingTime": "24/7",
+        "imageName": "glassOfWater",
+        "isFavorite": false
+    },
+    {
+        "id": 1007,
+        "category": "Watertappunt",
+        "name": "Stationsplein",
+        "city": "Maastricht",
+        "zipCode": "6221 BT",
+        "coordinates": {
+            "longitude": 50.849748175713955,
+            "latitude": 5.705262327084773
+        },
+        "openingTime": "24/7",
+        "imageName": "glassOfWater",
+        "isFavorite": false
+    },
+    {
+        "id": 1008,
+        "category": "Watertappunt",
+        "name": "Markt",
+        "city": "Maastricht",
+        "zipCode": "6211 CM",
+        "coordinates": {
+            "longitude": 50.85146323700792,
+            "latitude": 5.690327930791213
+        },
+        "openingTime": "24/7",
+        "imageName": "glassOfWater",
+        "isFavorite": false
+    },
+    {
+        "id": 1009,
+        "category": "Watertappunt",
+        "name": "Luikerweg",
+        "city": "Maastricht",
+        "zipCode": "empty",
+        "coordinates": {
+            "longitude": 50.83160695452457,
+            "latitude": 5.686078968258342
+        },
+        "openingTime": "24/7",
+        "imageName": "glassOfWater",
+        "isFavorite": false
+    }
+]
