@@ -11,6 +11,7 @@
 		A940F0B72A4CA54C003AE1CB /* MapView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A940F0B62A4CA54C003AE1CB /* MapView.swift */; };
 		A940F0BB2A4CA994003AE1CB /* LaunchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A940F0BA2A4CA994003AE1CB /* LaunchView.swift */; };
 		A9A6018C2A53633900C32DFC /* FountainsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A6018B2A53633900C32DFC /* FountainsList.swift */; };
+		A9A6018E2A53F86600C32DFC /* FountainDetails.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9A6018D2A53F86600C32DFC /* FountainDetails.swift */; };
 		A9B984FC2A4EB2DE00E6135C /* drinkingWaterFountainsData.json in Resources */ = {isa = PBXBuildFile; fileRef = A9B984FB2A4EB2DE00E6135C /* drinkingWaterFountainsData.json */; };
 		A9B984FE2A4EB3A700E6135C /* Fountain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B984FD2A4EB3A700E6135C /* Fountain.swift */; };
 		A9B985002A4EC8EC00E6135C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B984FF2A4EC8EC00E6135C /* ModelData.swift */; };
@@ -48,6 +49,7 @@
 		A940F0B62A4CA54C003AE1CB /* MapView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MapView.swift; sourceTree = "<group>"; };
 		A940F0BA2A4CA994003AE1CB /* LaunchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LaunchView.swift; sourceTree = "<group>"; };
 		A9A6018B2A53633900C32DFC /* FountainsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FountainsList.swift; sourceTree = "<group>"; };
+		A9A6018D2A53F86600C32DFC /* FountainDetails.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FountainDetails.swift; sourceTree = "<group>"; };
 		A9B984FB2A4EB2DE00E6135C /* drinkingWaterFountainsData.json */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.json; path = drinkingWaterFountainsData.json; sourceTree = "<group>"; };
 		A9B984FD2A4EB3A700E6135C /* Fountain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fountain.swift; sourceTree = "<group>"; };
 		A9B984FF2A4EC8EC00E6135C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
@@ -101,6 +103,7 @@
 				A940F0B62A4CA54C003AE1CB /* MapView.swift */,
 				A9B985042A4ECDCA00E6135C /* FountainRow.swift */,
 				A9A6018B2A53633900C32DFC /* FountainsList.swift */,
+				A9A6018D2A53F86600C32DFC /* FountainDetails.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -324,6 +327,7 @@
 				A9EE84502A19489F0081393C /* GeenDorstInLimburg.xcdatamodeld in Sources */,
 				A9A6018C2A53633900C32DFC /* FountainsList.swift in Sources */,
 				A9B985002A4EC8EC00E6135C /* ModelData.swift in Sources */,
+				A9A6018E2A53F86600C32DFC /* FountainDetails.swift in Sources */,
 				A940F0B52A4CA3A7003AE1CB /* CircleImage.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

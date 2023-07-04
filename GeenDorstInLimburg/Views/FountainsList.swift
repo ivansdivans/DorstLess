@@ -9,8 +9,15 @@ import SwiftUI
 
 struct FountainsList: View {
     var body: some View {
-        List(fountains) { fountain in
-            FountainRow(fountain: fountain)
+        NavigationView {
+            List(fountains) { fountain in
+                NavigationLink {
+                    FountainDetails()
+                } label: {
+                    FountainRow(fountain: fountain)
+                }
+            }
+            .navigationTitle("Drinking water fountains")
         }
     }
 }
