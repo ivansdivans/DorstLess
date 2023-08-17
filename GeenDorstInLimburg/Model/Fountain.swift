@@ -11,6 +11,8 @@ import CoreLocation
 
 struct Fountain: Hashable, Codable, Identifiable {
     var id: Int
+    var category: String
+    var openingTime: String
     var name: String
     var city: String
     var zipCode: String

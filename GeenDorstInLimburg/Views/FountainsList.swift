@@ -12,7 +12,7 @@ struct FountainsList: View {
         NavigationView {
             List(fountains) { fountain in
                 NavigationLink {
-                    FountainDetails()
+                    FountainDetails(fountain: fountain)
                 } label: {
                     FountainRow(fountain: fountain)
                 }
@@ -25,5 +25,7 @@ struct FountainsList: View {
 struct FountainsList_Previews: PreviewProvider {
     static var previews: some View {
         FountainsList()
+            .previewDevice(PreviewDevice(rawValue: "iPhone SE (3rd generation)"))
+            .previewDisplayName("iPhone SE (3rd generation)")
     }
 }

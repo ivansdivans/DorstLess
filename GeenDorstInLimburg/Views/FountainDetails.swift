@@ -8,29 +8,30 @@
 import SwiftUI
 
 struct FountainDetails: View {
+    var fountain: Fountain
+    
     var body: some View {
-        VStack {
-            MapView()
+        ScrollView {
+            MapView(coordinate: fountain.locationCoordinate)
                 .frame(height: 500)
                 .ignoresSafeArea(edges: .top)
             
-            CircleImage()
-                .offset(y: -130)
-                .padding(.bottom, -130)
+            CircleImage(image: fountain.image)
+                .offset(y: -70)
+                .padding(.bottom, -70)
             
             VStack(alignment: .leading) {
-                Text("Watertappunt")
+                Text(fountain.category)
                     .font(.title)
                 
-                Text("Henri Hermanspark ")
+                Text(fountain.name)
                     .font(.subheadline)
                 
                 Divider()
                 
                 HStack {
                     Text("Opening time:")
-                    
-                    Text("24/7")
+                    Text(fountain.openingTime)
                 }
                 .font(.subheadline)
                 .foregroundColor(.secondary)
@@ -48,11 +49,13 @@ struct FountainDetails: View {
             
             Spacer()
         }
+        .navigationTitle(fountain.name)
+        .navigationBarTitleDisplayMode(.inline)
     }
 }
 
 struct FountainDetails_Previews: PreviewProvider {
     static var previews: some View {
-        FountainDetails()
+        FountainDetails(fountain: fountains[0])
     }
 }

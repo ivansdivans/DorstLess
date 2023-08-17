@@ -6,8 +6,8 @@
         "city": "Maastricht",
         "zipCode": "6211 JP",
         "coordinates": {
-            "longitude": 50.844162763510425,
-            "latitude": 5.691513264121207
+            "longitude": 5.691364455021424,
+            "latitude": 50.84402830618772
         },
         "openingTime": "24/7",
         "imageName": "glassOfWater",
@@ -20,8 +20,8 @@
         "city": "Maastricht",
         "zipCode": "6211 HG",
         "coordinates": {
-            "longitude": 50.8474957122908,
-            "latitude": 5.6944958805776436
+            "longitude": 5.6944958805776436,
+            "latitude": 50.8474957122908
         },
         "openingTime": "24/7",
         "imageName": "glassOfWater",
@@ -34,8 +34,8 @@
         "city": "Maastricht",
         "zipCode": "6211 ER",
         "coordinates": {
-            "longitude": 50.84948229664089,
-            "latitude":  5.693842496395379
+            "longitude": 5.693842496395379,
+            "latitude":  50.84948229664089
         },
         "openingTime": "24/7",
         "imageName": "glassOfWater",
@@ -48,8 +48,8 @@
         "city": "Maastricht",
         "zipCode": "empty",
         "coordinates": {
-            "longitude": 50.84070177647112,
-            "latitude": 5.701069586252392
+            "longitude": 5.701069586252392,
+            "latitude": 50.84070177647112
         },
         "openingTime": "24/7",
         "imageName": "glassOfWater",
@@ -62,8 +62,8 @@
         "city": "Maastricht",
         "zipCode": "6229 GA",
         "coordinates": {
-            "longitude": 50.84020191313425,
-            "latitude": 5.703297812505904
+            "longitude": 5.703297812505904,
+            "latitude": 50.84020191313425
         },
         "openingTime": "24/7",
         "imageName": "glassOfWater",
@@ -76,8 +76,8 @@
         "city": "Maastricht",
         "zipCode": "6211 LC",
         "coordinates": {
-            "longitude": 50.84998425910163,
-            "latitude": 5.688830796395379
+            "longitude": 5.688830796395379,
+            "latitude": 50.84998425910163
         },
         "openingTime": "24/7",
         "imageName": "glassOfWater",
@@ -90,8 +90,8 @@
         "city": "Maastricht",
         "zipCode": "6221 BT",
         "coordinates": {
-            "longitude": 50.849748175713955,
-            "latitude": 5.705262327084773
+            "longitude": 5.705262327084773,
+            "latitude": 50.849748175713955
         },
         "openingTime": "24/7",
         "imageName": "glassOfWater",
@@ -104,8 +104,8 @@
         "city": "Maastricht",
         "zipCode": "6211 CM",
         "coordinates": {
-            "longitude": 50.85146323700792,
-            "latitude": 5.690327930791213
+            "longitude": 5.690327930791213,
+            "latitude": 50.85146323700792
         },
         "openingTime": "24/7",
         "imageName": "glassOfWater",
@@ -118,8 +118,8 @@
         "city": "Maastricht",
         "zipCode": "empty",
         "coordinates": {
-            "longitude": 50.83160695452457,
-            "latitude": 5.686078968258342
+            "longitude": 5.686078968258342,
+            "latitude": 50.83160695452457
         },
         "openingTime": "24/7",
         "imageName": "glassOfWater",
