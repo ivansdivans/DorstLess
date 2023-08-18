@@ -13,7 +13,7 @@ struct MapView: View {
     
     @State private var region = MKCoordinateRegion()
     @State private var tracking = MapUserTrackingMode.follow
-
+    
     var body: some View {
         Map(
             coordinateRegion: $region,
@@ -22,14 +22,18 @@ struct MapView: View {
             userTrackingMode: $tracking,
             annotationItems: locations,
             annotationContent: { location in
-                MapMarker(coordinate: location.locationCoordinate, tint: .red)
-            }
-        )
-            .onAppear {
-                if let firstFountain = locations.first {
-                    setRegion(firstFountain.locationCoordinate)
+                MapAnnotation(coordinate: location.locationCoordinate) {
+                    LocationMapAnnotationView(location: location)
+                        .scaleEffect(locations.first == location ? 1 : 0.7)
+                        .shadow(radius: 10)
                 }
             }
+        )
+        .onAppear {
+            if let firstFountain = locations.first {
+                setRegion(firstFountain.locationCoordinate)
+            }
+        }
     }
     
     private func setRegion(_ coordinate: CLLocationCoordinate2D) {
