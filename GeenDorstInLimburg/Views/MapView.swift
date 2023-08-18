@@ -9,14 +9,22 @@ import SwiftUI
 import MapKit
 
 struct MapView: View {
-    var coordinate: CLLocationCoordinate2D
+    var locations: [Fountain]
     
     @State private var region = MKCoordinateRegion()
 
     var body: some View {
-        Map(coordinateRegion: $region)
+        Map(
+            coordinateRegion: $region,
+            annotationItems: locations,
+            annotationContent: { location in
+                MapMarker(coordinate: location.locationCoordinate, tint: .red)
+            }
+        )
             .onAppear {
-                setRegion(coordinate)
+                if let firstFountain = locations.first {
+                    setRegion(firstFountain.locationCoordinate)
+                }
             }
     }
     
@@ -30,6 +38,6 @@ struct MapView: View {
 
 struct MapView_Previews: PreviewProvider {
     static var previews: some View {
-        MapView(coordinate: CLLocationCoordinate2D(latitude: 50.844203424593125, longitude: 5.691599080757117))
+        MapView(locations: fountains)
     }
 }

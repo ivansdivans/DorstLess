@@ -12,7 +12,7 @@ struct FountainDetails: View {
     
     var body: some View {
         ScrollView {
-            MapView(coordinate: fountain.locationCoordinate)
+            MapView(locations: [fountain])
                 .frame(height: 500)
                 .ignoresSafeArea(edges: .top)
             
