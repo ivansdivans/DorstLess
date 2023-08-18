@@ -12,10 +12,14 @@ struct MapView: View {
     var locations: [Fountain]
     
     @State private var region = MKCoordinateRegion()
+    @State private var tracking = MapUserTrackingMode.follow
 
     var body: some View {
         Map(
             coordinateRegion: $region,
+            interactionModes: MapInteractionModes.all,
+            showsUserLocation: true,
+            userTrackingMode: $tracking,
             annotationItems: locations,
             annotationContent: { location in
                 MapMarker(coordinate: location.locationCoordinate, tint: .red)
