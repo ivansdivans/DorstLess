@@ -8,16 +8,30 @@
 import SwiftUI
 
 struct FountainsList: View {
+    @State private var showFavoritesOnly = false
+    
+    var filteredLandmarks: [Fountain] {
+        fountains.filter { fountain in
+            (!showFavoritesOnly || fountain.isFavorite)
+        }
+    }
+    
     var body: some View {
         NavigationView {
-            List(fountains) { fountain in
-                NavigationLink {
-                    FountainDetails(fountain: fountain)
-                } label: {
-                    FountainRow(fountain: fountain)
+            List {
+                Toggle(isOn: $showFavoritesOnly) {
+                    Text("Favorites only")
+                }
+                
+                ForEach(filteredLandmarks) { fountain in
+                    NavigationLink {
+                        FountainDetails(fountain: fountain)
+                    } label: {
+                        FountainRow(fountain: fountain)
+                    }
                 }
             }
-            .navigationTitle("Drinking water fountains")
+            .navigationTitle("Drinking water")
         }
     }
 }

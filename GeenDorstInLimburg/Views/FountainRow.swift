@@ -18,6 +18,11 @@ struct FountainRow: View {
             Text(fountain.name)
             
             Spacer()
+            
+            if fountain.isFavorite {
+                Image(systemName: "star.fill")
+                    .foregroundColor(.yellow)
+            }
         }
     }
 }
