@@ -8,7 +8,12 @@
 import SwiftUI
 
 struct FountainDetails: View {
+    @EnvironmentObject var modelData: ModelData
     var fountain: Fountain
+    
+    var fountainIndex: Int {
+        modelData.fountains.firstIndex(where: { $0.id == fountain.id })!
+    }
     
     var body: some View {
         ScrollView {
@@ -21,10 +26,14 @@ struct FountainDetails: View {
                 .padding(.bottom, -70)
             
             VStack(alignment: .leading) {
-                Text(fountain.category)
-                    .font(.title)
+                HStack {
+                    Text(fountain.name)
+                        .font(.title)
+                    FavoriteButton(isSet: $modelData.fountains[fountainIndex].isFavorite)
+                    // Use landmarkIndex with the modelData object to ensure that the button updates the isFavorite property of the landmark stored in your model object.
+                }
                 
-                Text(fountain.name)
+                Text(fountain.category)
                     .font(.subheadline)
                 
                 Divider()
@@ -55,7 +64,10 @@ struct FountainDetails: View {
 }
 
 struct FountainDetails_Previews: PreviewProvider {
+    static let modelData = ModelData()
+    
     static var previews: some View {
         FountainDetails(fountain: ModelData().fountains[0])
+            .environmentObject(modelData)
     }
 }
