@@ -11,6 +11,7 @@ import Combine
 final class ModelData: ObservableObject {
     @Published var fountains: [Fountain] = load("drinkingWaterFountainsData.json")
 }
+// SwiftUI subscribes to your observable object, and updates any views that need refreshing when the data changes.
 
 func load<T: Decodable>(_ filename: String) -> T {
     let data: Data

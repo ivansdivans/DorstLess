@@ -9,7 +9,9 @@ import SwiftUI
 
 struct FountainsList: View {
     @EnvironmentObject var modelData: ModelData
+    // The modelData property gets its value automatically, as long as the environmentObject(_:) modifier has been applied to a parent.
     @State private var showFavoritesOnly = false
+    // Because you use state properties to hold information that’s specific to a view and its subviews, you always create state as private.
     
     var filteredLandmarks: [Fountain] {
         modelData.fountains.filter { fountain in
@@ -23,6 +25,7 @@ struct FountainsList: View {
                 Toggle(isOn: $showFavoritesOnly) {
                     Text("Favorites only")
                 }
+                // Use the $ prefix to access a binding to a state variable, or one of its properties.
                 
                 ForEach(filteredLandmarks) { fountain in
                     NavigationLink {
@@ -31,6 +34,7 @@ struct FountainsList: View {
                         FountainRow(fountain: fountain)
                     }
                 }
+                // To combine static and dynamic views in a list, or to combine two or more different groups of dynamic views, use the ForEach type instead of passing your collection of data to List.
             }
             .navigationTitle("Drinking water")
         }

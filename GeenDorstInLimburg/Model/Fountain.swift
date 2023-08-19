@@ -17,6 +17,8 @@ struct Fountain: Hashable, Codable, Identifiable {
     var city: String
     var zipCode: String
     var isFavorite: Bool
+    // The drinkingWaterFountainsData.json file has a key with this name for each fountain.
+    // Because Fountain conforms to Codable, you can read the value associated with the key by creating a new property with the same name as the key.
 
     private var imageName: String
     var image: Image {
