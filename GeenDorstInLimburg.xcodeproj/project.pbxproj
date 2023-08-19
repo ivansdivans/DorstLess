@@ -98,18 +98,34 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		A9845C922A90B95100A46404 /* Fountains */ = {
+			isa = PBXGroup;
+			children = (
+				A9A6018D2A53F86600C32DFC /* FountainDetails.swift */,
+				A9B985042A4ECDCA00E6135C /* FountainRow.swift */,
+				A9A6018B2A53633900C32DFC /* FountainsList.swift */,
+			);
+			path = Fountains;
+			sourceTree = "<group>";
+		};
+		A9845C932A90B95900A46404 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				A940F0B42A4CA3A7003AE1CB /* CircleImage.swift */,
+				A9845C902A90B71200A46404 /* FavoriteButton.swift */,
+				A9845C8E2A8F8FF600A46404 /* LocationMapAnnotationView.swift */,
+				A940F0B62A4CA54C003AE1CB /* MapView.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		A9B985012A4ECC4A00E6135C /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				A9EE84452A19489D0081393C /* ContentView.swift */,
 				A940F0BA2A4CA994003AE1CB /* LaunchView.swift */,
-				A940F0B42A4CA3A7003AE1CB /* CircleImage.swift */,
-				A940F0B62A4CA54C003AE1CB /* MapView.swift */,
-				A9B985042A4ECDCA00E6135C /* FountainRow.swift */,
-				A9A6018B2A53633900C32DFC /* FountainsList.swift */,
-				A9A6018D2A53F86600C32DFC /* FountainDetails.swift */,
-				A9845C8E2A8F8FF600A46404 /* LocationMapAnnotationView.swift */,
-				A9845C902A90B71200A46404 /* FavoriteButton.swift */,
+				A9EE84452A19489D0081393C /* ContentView.swift */,
+				A9845C922A90B95100A46404 /* Fountains */,
+				A9845C932A90B95900A46404 /* Helpers */,
 			);
 			path = Views;
 			sourceTree = "<group>";
