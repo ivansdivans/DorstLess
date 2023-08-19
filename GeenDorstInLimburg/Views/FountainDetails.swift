@@ -56,6 +56,6 @@ struct FountainDetails: View {
 
 struct FountainDetails_Previews: PreviewProvider {
     static var previews: some View {
-        FountainDetails(fountain: fountains[0])
+        FountainDetails(fountain: ModelData().fountains[0])
     }
 }

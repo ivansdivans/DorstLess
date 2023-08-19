@@ -28,6 +28,8 @@ struct FountainRow: View {
 }
 
 struct FountainRow_Previews: PreviewProvider {
+    static var fountains = ModelData().fountains
+    
     static var previews: some View {
         Group {
             FountainRow(fountain: fountains[0])

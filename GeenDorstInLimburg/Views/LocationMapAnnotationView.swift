@@ -34,6 +34,6 @@ struct LocationMapAnnotationView: View {
 
 struct LocationMapAnnotationView_Previews: PreviewProvider {
     static var previews: some View {
-        LocationMapAnnotationView(location: fountains[0])
+        LocationMapAnnotationView(location: ModelData().fountains[0])
     }
 }

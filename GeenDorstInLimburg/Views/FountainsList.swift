@@ -8,10 +8,11 @@
 import SwiftUI
 
 struct FountainsList: View {
+    @EnvironmentObject var modelData: ModelData
     @State private var showFavoritesOnly = false
     
     var filteredLandmarks: [Fountain] {
-        fountains.filter { fountain in
+        modelData.fountains.filter { fountain in
             (!showFavoritesOnly || fountain.isFavorite)
         }
     }
@@ -39,6 +40,7 @@ struct FountainsList: View {
 struct FountainsList_Previews: PreviewProvider {
     static var previews: some View {
         FountainsList()
+            .environmentObject(ModelData())
             .previewDevice(PreviewDevice(rawValue: "iPhone 14 Pro"))
             .previewDisplayName("iPhone 14 Pro")
     }
