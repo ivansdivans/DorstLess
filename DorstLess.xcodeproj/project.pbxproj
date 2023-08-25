@@ -158,7 +158,7 @@
 			children = (
 				A9EE84422A19489D0081393C /* DorstLess */,
 				A9EE84592A19489F0081393C /* DorstLessTests */,
-				A9EE84632A19489F0081393C /* GeenDorstInLimburgUITests */,
+				A9EE84632A19489F0081393C /* DorstLessUITests */,
 				A9EE84412A19489D0081393C /* Products */,
 			);
 			sourceTree = "<group>";
@@ -205,13 +205,13 @@
 			path = DorstLessTests;
 			sourceTree = "<group>";
 		};
-		A9EE84632A19489F0081393C /* GeenDorstInLimburgUITests */ = {
+		A9EE84632A19489F0081393C /* DorstLessUITests */ = {
 			isa = PBXGroup;
 			children = (
 				A9EE84642A19489F0081393C /* GeenDorstInLimburgUITests.swift */,
 				A9EE84662A19489F0081393C /* GeenDorstInLimburgUITestsLaunchTests.swift */,
 			);
-			path = GeenDorstInLimburgUITests;
+			path = DorstLessUITests;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
