@@ -126,12 +126,11 @@
 		A9B985012A4ECC4A00E6135C /* Views */ = {
 			isa = PBXGroup;
 			children = (
+				A9E4C72E2A990E83005370D7 /* Badge */,
 				A940F0BA2A4CA994003AE1CB /* LaunchView.swift */,
 				A9EE84452A19489D0081393C /* ContentView.swift */,
 				A9845C922A90B95100A46404 /* Fountains */,
 				A9845C932A90B95900A46404 /* Helpers */,
-				A98F75FC2A98A468003D81AD /* HexagonParameters.swift */,
-				A98F75FE2A98A710003D81AD /* BadgeBackground.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -151,6 +150,15 @@
 				A9B984FB2A4EB2DE00E6135C /* drinkingWaterFountainsData.json */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		A9E4C72E2A990E83005370D7 /* Badge */ = {
+			isa = PBXGroup;
+			children = (
+				A98F75FC2A98A468003D81AD /* HexagonParameters.swift */,
+				A98F75FE2A98A710003D81AD /* BadgeBackground.swift */,
+			);
+			path = Badge;
 			sourceTree = "<group>";
 		};
 		A9EE84372A19489D0081393C = {
