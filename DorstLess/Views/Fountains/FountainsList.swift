@@ -9,7 +9,6 @@ import SwiftUI
 
 struct FountainsList: View {
     @EnvironmentObject var modelData: ModelData
-    // The modelData property gets its value automatically, as long as the environmentObject(_:) modifier has been applied to a parent.
     @State private var showFavoritesOnly = false
     // Because you use state properties to hold information that’s specific to a view and its subviews, you always create state as private.
     

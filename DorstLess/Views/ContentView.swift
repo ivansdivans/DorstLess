@@ -9,6 +9,9 @@ import SwiftUI
 import CoreData
 
 struct ContentView: View {
+    @EnvironmentObject var modelData: ModelData
+    // The modelData property gets its value automatically, as long as the environmentObject(_:) modifier has been applied to a parent.
+
     var body: some View {
         FountainsList()
     }

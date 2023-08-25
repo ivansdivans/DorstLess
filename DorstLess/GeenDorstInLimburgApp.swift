@@ -15,9 +15,11 @@ struct GeenDorstInLimburgApp: App {
     
     var body: some Scene {
         WindowGroup {
-            ContentView()
-                .environmentObject(modelData)
-            // You apply environmentObject(_:) modifier so that views further down in the view hierarchy can read data objects passed down through the environment.
+            NavigationView {
+                LaunchView()
+                    .environmentObject(modelData)
+                // You apply environmentObject(_:) modifier so that views further down in the view hierarchy can read data objects passed down through the environment.
+            }
         }
     }
 }
