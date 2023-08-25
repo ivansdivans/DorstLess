@@ -62,7 +62,7 @@
 		A9B984FD2A4EB3A700E6135C /* Fountain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fountain.swift; sourceTree = "<group>"; };
 		A9B984FF2A4EC8EC00E6135C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		A9B985042A4ECDCA00E6135C /* FountainRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FountainRow.swift; sourceTree = "<group>"; };
-		A9EE84402A19489D0081393C /* GeenDorstInLimburg.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = GeenDorstInLimburg.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9EE84402A19489D0081393C /* DorstLess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DorstLess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9EE84432A19489D0081393C /* GeenDorstInLimburgApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeenDorstInLimburgApp.swift; sourceTree = "<group>"; };
 		A9EE84452A19489D0081393C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		A9EE84472A19489F0081393C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -70,9 +70,9 @@
 		A9EE844C2A19489F0081393C /* Persistence.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Persistence.swift; sourceTree = "<group>"; };
 		A9EE844F2A19489F0081393C /* GeenDorstInLimburg.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = GeenDorstInLimburg.xcdatamodel; sourceTree = "<group>"; };
 		A9EE84512A19489F0081393C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		A9EE84562A19489F0081393C /* GeenDorstInLimburgTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeenDorstInLimburgTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9EE84562A19489F0081393C /* DorstLessTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DorstLessTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9EE845A2A19489F0081393C /* GeenDorstInLimburgTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeenDorstInLimburgTests.swift; sourceTree = "<group>"; };
-		A9EE84602A19489F0081393C /* GeenDorstInLimburgUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = GeenDorstInLimburgUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		A9EE84602A19489F0081393C /* DorstLessUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DorstLessUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9EE84642A19489F0081393C /* GeenDorstInLimburgUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeenDorstInLimburgUITests.swift; sourceTree = "<group>"; };
 		A9EE84662A19489F0081393C /* GeenDorstInLimburgUITestsLaunchTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeenDorstInLimburgUITestsLaunchTests.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -166,9 +166,9 @@
 		A9EE84412A19489D0081393C /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				A9EE84402A19489D0081393C /* GeenDorstInLimburg.app */,
-				A9EE84562A19489F0081393C /* GeenDorstInLimburgTests.xctest */,
-				A9EE84602A19489F0081393C /* GeenDorstInLimburgUITests.xctest */,
+				A9EE84402A19489D0081393C /* DorstLess.app */,
+				A9EE84562A19489F0081393C /* DorstLessTests.xctest */,
+				A9EE84602A19489F0081393C /* DorstLessUITests.xctest */,
 			);
 			name = Products;
 			sourceTree = "<group>";
@@ -217,9 +217,9 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		A9EE843F2A19489D0081393C /* GeenDorstInLimburg */ = {
+		A9EE843F2A19489D0081393C /* DorstLess */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9EE846A2A19489F0081393C /* Build configuration list for PBXNativeTarget "GeenDorstInLimburg" */;
+			buildConfigurationList = A9EE846A2A19489F0081393C /* Build configuration list for PBXNativeTarget "DorstLess" */;
 			buildPhases = (
 				A9EE843C2A19489D0081393C /* Sources */,
 				A9EE843D2A19489D0081393C /* Frameworks */,
@@ -229,14 +229,14 @@
 			);
 			dependencies = (
 			);
-			name = GeenDorstInLimburg;
+			name = DorstLess;
 			productName = GeenDorstInLimburg;
-			productReference = A9EE84402A19489D0081393C /* GeenDorstInLimburg.app */;
+			productReference = A9EE84402A19489D0081393C /* DorstLess.app */;
 			productType = "com.apple.product-type.application";
 		};
-		A9EE84552A19489F0081393C /* GeenDorstInLimburgTests */ = {
+		A9EE84552A19489F0081393C /* DorstLessTests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9EE846D2A19489F0081393C /* Build configuration list for PBXNativeTarget "GeenDorstInLimburgTests" */;
+			buildConfigurationList = A9EE846D2A19489F0081393C /* Build configuration list for PBXNativeTarget "DorstLessTests" */;
 			buildPhases = (
 				A9EE84522A19489F0081393C /* Sources */,
 				A9EE84532A19489F0081393C /* Frameworks */,
@@ -247,14 +247,14 @@
 			dependencies = (
 				A9EE84582A19489F0081393C /* PBXTargetDependency */,
 			);
-			name = GeenDorstInLimburgTests;
+			name = DorstLessTests;
 			productName = GeenDorstInLimburgTests;
-			productReference = A9EE84562A19489F0081393C /* GeenDorstInLimburgTests.xctest */;
+			productReference = A9EE84562A19489F0081393C /* DorstLessTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
 		};
-		A9EE845F2A19489F0081393C /* GeenDorstInLimburgUITests */ = {
+		A9EE845F2A19489F0081393C /* DorstLessUITests */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = A9EE84702A19489F0081393C /* Build configuration list for PBXNativeTarget "GeenDorstInLimburgUITests" */;
+			buildConfigurationList = A9EE84702A19489F0081393C /* Build configuration list for PBXNativeTarget "DorstLessUITests" */;
 			buildPhases = (
 				A9EE845C2A19489F0081393C /* Sources */,
 				A9EE845D2A19489F0081393C /* Frameworks */,
@@ -265,9 +265,9 @@
 			dependencies = (
 				A9EE84622A19489F0081393C /* PBXTargetDependency */,
 			);
-			name = GeenDorstInLimburgUITests;
+			name = DorstLessUITests;
 			productName = GeenDorstInLimburgUITests;
-			productReference = A9EE84602A19489F0081393C /* GeenDorstInLimburgUITests.xctest */;
+			productReference = A9EE84602A19489F0081393C /* DorstLessUITests.xctest */;
 			productType = "com.apple.product-type.bundle.ui-testing";
 		};
 /* End PBXNativeTarget section */
@@ -293,7 +293,7 @@
 					};
 				};
 			};
-			buildConfigurationList = A9EE843B2A19489D0081393C /* Build configuration list for PBXProject "GeenDorstInLimburg" */;
+			buildConfigurationList = A9EE843B2A19489D0081393C /* Build configuration list for PBXProject "DorstLess" */;
 			compatibilityVersion = "Xcode 14.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -306,9 +306,9 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A9EE843F2A19489D0081393C /* GeenDorstInLimburg */,
-				A9EE84552A19489F0081393C /* GeenDorstInLimburgTests */,
-				A9EE845F2A19489F0081393C /* GeenDorstInLimburgUITests */,
+				A9EE843F2A19489D0081393C /* DorstLess */,
+				A9EE84552A19489F0081393C /* DorstLessTests */,
+				A9EE845F2A19489F0081393C /* DorstLessUITests */,
 			);
 		};
 /* End PBXProject section */
@@ -386,12 +386,12 @@
 /* Begin PBXTargetDependency section */
 		A9EE84582A19489F0081393C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A9EE843F2A19489D0081393C /* GeenDorstInLimburg */;
+			target = A9EE843F2A19489D0081393C /* DorstLess */;
 			targetProxy = A9EE84572A19489F0081393C /* PBXContainerItemProxy */;
 		};
 		A9EE84622A19489F0081393C /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = A9EE843F2A19489D0081393C /* GeenDorstInLimburg */;
+			target = A9EE843F2A19489D0081393C /* DorstLess */;
 			targetProxy = A9EE84612A19489F0081393C /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -584,7 +584,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeenDorstInLimburg.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeenDorstInLimburg";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DorstLess.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DorstLess";
 			};
 			name = Debug;
 		};
@@ -603,7 +603,7 @@
 				SWIFT_EMIT_LOC_STRINGS = NO;
 				SWIFT_VERSION = 5.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/GeenDorstInLimburg.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/GeenDorstInLimburg";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/DorstLess.app/$(BUNDLE_EXECUTABLE_FOLDER_PATH)/DorstLess";
 			};
 			name = Release;
 		};
@@ -644,7 +644,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		A9EE843B2A19489D0081393C /* Build configuration list for PBXProject "GeenDorstInLimburg" */ = {
+		A9EE843B2A19489D0081393C /* Build configuration list for PBXProject "DorstLess" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9EE84682A19489F0081393C /* Debug */,
@@ -653,7 +653,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9EE846A2A19489F0081393C /* Build configuration list for PBXNativeTarget "GeenDorstInLimburg" */ = {
+		A9EE846A2A19489F0081393C /* Build configuration list for PBXNativeTarget "DorstLess" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9EE846B2A19489F0081393C /* Debug */,
@@ -662,7 +662,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9EE846D2A19489F0081393C /* Build configuration list for PBXNativeTarget "GeenDorstInLimburgTests" */ = {
+		A9EE846D2A19489F0081393C /* Build configuration list for PBXNativeTarget "DorstLessTests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9EE846E2A19489F0081393C /* Debug */,
@@ -671,7 +671,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		A9EE84702A19489F0081393C /* Build configuration list for PBXNativeTarget "GeenDorstInLimburgUITests" */ = {
+		A9EE84702A19489F0081393C /* Build configuration list for PBXNativeTarget "DorstLessUITests" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				A9EE84712A19489F0081393C /* Debug */,
