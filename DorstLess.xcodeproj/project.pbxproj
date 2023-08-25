@@ -20,6 +20,9 @@
 		A9B984FE2A4EB3A700E6135C /* Fountain.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B984FD2A4EB3A700E6135C /* Fountain.swift */; };
 		A9B985002A4EC8EC00E6135C /* ModelData.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B984FF2A4EC8EC00E6135C /* ModelData.swift */; };
 		A9B985052A4ECDCA00E6135C /* FountainRow.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9B985042A4ECDCA00E6135C /* FountainRow.swift */; };
+		A9E4C7302A990EBD005370D7 /* BadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E4C72F2A990EBD005370D7 /* BadgeSymbol.swift */; };
+		A9E4C7322A991057005370D7 /* RotatedBadgeSymbol.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E4C7312A991057005370D7 /* RotatedBadgeSymbol.swift */; };
+		A9E4C7342A9910AE005370D7 /* Badge.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9E4C7332A9910AE005370D7 /* Badge.swift */; };
 		A9EE84442A19489D0081393C /* GeenDorstInLimburgApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE84432A19489D0081393C /* GeenDorstInLimburgApp.swift */; };
 		A9EE84462A19489D0081393C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = A9EE84452A19489D0081393C /* ContentView.swift */; };
 		A9EE84482A19489F0081393C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = A9EE84472A19489F0081393C /* Assets.xcassets */; };
@@ -62,6 +65,9 @@
 		A9B984FD2A4EB3A700E6135C /* Fountain.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fountain.swift; sourceTree = "<group>"; };
 		A9B984FF2A4EC8EC00E6135C /* ModelData.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ModelData.swift; sourceTree = "<group>"; };
 		A9B985042A4ECDCA00E6135C /* FountainRow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FountainRow.swift; sourceTree = "<group>"; };
+		A9E4C72F2A990EBD005370D7 /* BadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BadgeSymbol.swift; sourceTree = "<group>"; };
+		A9E4C7312A991057005370D7 /* RotatedBadgeSymbol.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RotatedBadgeSymbol.swift; sourceTree = "<group>"; };
+		A9E4C7332A9910AE005370D7 /* Badge.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Badge.swift; sourceTree = "<group>"; };
 		A9EE84402A19489D0081393C /* DorstLess.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DorstLess.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		A9EE84432A19489D0081393C /* GeenDorstInLimburgApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GeenDorstInLimburgApp.swift; sourceTree = "<group>"; };
 		A9EE84452A19489D0081393C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
@@ -157,6 +163,9 @@
 			children = (
 				A98F75FC2A98A468003D81AD /* HexagonParameters.swift */,
 				A98F75FE2A98A710003D81AD /* BadgeBackground.swift */,
+				A9E4C72F2A990EBD005370D7 /* BadgeSymbol.swift */,
+				A9E4C7312A991057005370D7 /* RotatedBadgeSymbol.swift */,
+				A9E4C7332A9910AE005370D7 /* Badge.swift */,
 			);
 			path = Badge;
 			sourceTree = "<group>";
@@ -360,15 +369,18 @@
 				A9B985052A4ECDCA00E6135C /* FountainRow.swift in Sources */,
 				A9EE84462A19489D0081393C /* ContentView.swift in Sources */,
 				A940F0BB2A4CA994003AE1CB /* LaunchView.swift in Sources */,
+				A9E4C7302A990EBD005370D7 /* BadgeSymbol.swift in Sources */,
 				A9B984FE2A4EB3A700E6135C /* Fountain.swift in Sources */,
 				A9EE84442A19489D0081393C /* GeenDorstInLimburgApp.swift in Sources */,
 				A9845C8F2A8F8FF600A46404 /* LocationMapAnnotationView.swift in Sources */,
+				A9E4C7322A991057005370D7 /* RotatedBadgeSymbol.swift in Sources */,
 				A9EE84502A19489F0081393C /* GeenDorstInLimburg.xcdatamodeld in Sources */,
 				A9A6018C2A53633900C32DFC /* FountainsList.swift in Sources */,
 				A9B985002A4EC8EC00E6135C /* ModelData.swift in Sources */,
 				A9845C912A90B71300A46404 /* FavoriteButton.swift in Sources */,
 				A9A6018E2A53F86600C32DFC /* FountainDetails.swift in Sources */,
 				A940F0B52A4CA3A7003AE1CB /* CircleImage.swift in Sources */,
+				A9E4C7342A9910AE005370D7 /* Badge.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
